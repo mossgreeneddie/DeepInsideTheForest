@@ -22,7 +22,7 @@ html{
     color:#f5f1de;
     align-items: center;
     background-image: url(assets/spacebg.jpg);
-    background-size:cover;
+    background-size:inherit;
 }
 
 a{
