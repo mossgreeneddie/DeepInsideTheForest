@@ -1,0 +1,53 @@
+html{
+    overflow: hidden;
+}
+
+.pic
+{
+    width: 100px;
+    animation: updown 2.5s infinite  alternate;
+}
+
+.pic:hover{
+    animation: hovery 2s infinite ease-in-out alternate;
+}
+
+@keyframes hovery {
+  0% { transform: translateY(-15px) rotate(0); }
+  100% { transform: translateY(0px) rotate(10deg); }
+}
+
+@keyframes updown{
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+
+.content{
+    padding: 150px;
+}
+
+.picper{
+    margin: auto;
+    width: 400px;
+    position: absolute;
+    top: 0%;
+    left: 65%;
+    animation: updown 6s infinite ease-in-out alternate;
+}
+
+.picper:hover{
+    animation: hovery 3s infinite ease-in-out alternate;
+}
+
+.picstar{
+    margin: auto;
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    animation: updown 3s infinite ease-in-out alternate;
+}
+
+.container{
+    text-align: center;
+}
