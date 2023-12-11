@@ -1,11 +1,8 @@
 img {
 	max-width: 100%;
 	height: auto;
-	vertical-align: middle;
-	display: inline-block;
 }
 
-/* Main CSS */
 .grid-wrapper > div {
 	display: flex;
 	justify-content: center;
@@ -24,13 +21,13 @@ img {
 	grid-auto-rows: auto;
 	grid-auto-flow: dense;
 }
-.grid-wrapper .wide {
+.grid-wrapper .weit {
 	grid-column: span 2;
 }
-.grid-wrapper .tall {
+.grid-wrapper .hoch {
 	grid-row: span 2;
 }
-.grid-wrapper .big {
+.grid-wrapper .groß {
 	grid-column: span 2;
 	grid-row: span 2;
 }
