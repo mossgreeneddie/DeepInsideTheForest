@@ -11,8 +11,8 @@ html{
     background-color: #8a9a5b;
     color:#f5f1de;
     align-items: center;
-    background-image: url('https://file.garden/ZXYYlmMYuz15fq8m/spacebg.jpg');
-    background-size:inherit;
+    background-image: url('https://file.garden/ZXYYlmMYuz15fq8m/other/spacebg.jpg');
+    background-size:cover;
 }
 
 .bg{
