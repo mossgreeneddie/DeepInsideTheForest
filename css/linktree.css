@@ -1,0 +1,75 @@
+/*
+colors:
+main text: #f5f1de;
+text acsent: #fff3b9;
+main: come on you know wich one;
+sec
+*/
+
+html{
+    font-family: Cambria, serif;
+    background-color: #8a9a5b;
+    color:#f5f1de;
+    align-items: center;
+    background-image: url('https://file.garden/ZXYYlmMYuz15fq8m/other/spacebg.jpg');
+    background-size:cover;
+}
+
+.bg{
+    background-color: #000000cb;
+    text-align: center;
+    padding: 50px 50px;
+    min-width: 40%;
+    width:fit-content;
+    margin:auto;
+    max-width: 50%;
+    min-height: 90%;
+}
+
+a{
+    color:#e0bf1d;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#ffffff
+}
+
+.button {
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 120%;
+    margin: 1%;
+    transition-duration: 0.4s;
+    color:#8a9a5b;
+    border: 2px solid #8a9a5b;
+    text-transform: uppercase;
+}
+  
+.button:hover {
+    background-color: #8a9a5b;
+    color: #f5f1de;
+}
+  
+footer{
+    text-align: center;
+    padding: 15px 8px 30px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+    width: 15%;
+    height: inherit;
+}
