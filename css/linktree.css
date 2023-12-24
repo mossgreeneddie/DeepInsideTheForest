@@ -28,7 +28,9 @@ html{
 
 a{
     color:#e0bf1d;
-    text-decoration: none;
+    text-decoration: underline #e0bf1d;
+    display: block;
+    padding: 1%;
 }
 
 a:hover{
@@ -46,6 +48,7 @@ a:hover{
     color:#8a9a5b;
     border: 2px solid #8a9a5b;
     text-transform: uppercase;
+    width: auto;
 }
   
 .button:hover {
