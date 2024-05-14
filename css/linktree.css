@@ -40,6 +40,7 @@ html{
     margin:auto;
     width: 35vw;
     max-width: 50vw;
+    border-radius: 5vw;
 }
 
 .pfp{
