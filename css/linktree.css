@@ -100,6 +100,8 @@ a > img{
     border-left: 8px solid var(--otherblue);
     text-transform: uppercase;
     width: auto;
+    border-radius: 10vw;
+    border-right: 20px solid var(--otherblue);
 }
 
 .button:hover {
@@ -116,6 +118,7 @@ a > img{
     }
     .button{
         border-left: 8px solid var(--yellow);
+        border-right: 8px solid var(--yellow);
     }
     img{
         width: 10vw;
