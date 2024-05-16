@@ -97,7 +97,7 @@ a > img{
     margin: 1%;
     transition-duration: 0.5s;
     color: var(--white);
-    border-left: 8px solid var(--otherblue);
+    border-left: 20px solid var(--otherblue);
     text-transform: uppercase;
     width: auto;
     border-radius: 10vw;
