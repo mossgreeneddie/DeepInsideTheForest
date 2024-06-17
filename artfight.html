@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artfight 2024</title>
+</head>
+<style>
+    :root{
+        --cool1: #ebb1fa;
+        --cool2: #fff;
+    }
+
+    *{
+        scrollbar-width:thin;
+    }
+
+    body{
+        background-image: url("https://file.garden/ZXYYlmMYuz15fq8m/fun(not%20website%20related)/bg");
+        background-size: 25%;
+        background-position: 30%;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        align-items: center;
+        width: 98vw;
+        justify-content:space-around;
+    }
+
+    .child{
+        background-color: var(--cool1);
+        text-align: center;
+        display: flex;
+        max-width: 50vw;
+        padding: 1vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        box-shadow: 0px 0px 100px var(--cool1),
+            inset 0 0 50px var(--cool2);
+        align-items: center;
+        margin: 10px;
+    }
+
+    h1, h2, h4, h3{
+        margin: 0;
+    }
+
+    h1{
+        color: var(--cool2);
+    }
+</style>
+<body>
+    <div class="flex">
+        <div class="child">
+            <img src="https://file.garden/ZXYYlmMYuz15fq8m/fun(not%20website%20related)/vapor" width="300px" height="300px" alt="">
+            <div style="padding: 1vw;">
+                <h1 id="wobble">Letsgoo Team Stardust!</h1>
+                <h3>Your serving artist: Eddie</h3>
+                <h4>What can i draw you today?</h4>
+                <p>You can call me whatever you want. I like going by Green or Eddie :D <br>
+                Any pronouns :3 <br>
+                I like cats, art and inspiring other people. <br>
+                Please say hi, I'd like to make new friends! <br>
+                My Artstyle is constantly chaging... <br>
+                I hope my art makes you happy because I'm always super happy when somebody draws something for me. :D <br>
+                I always -99% of the time- revenge!</p>
+                <div style="background-color: var(--cool2); padding: 10px; border-radius: 20px; box-shadow: inset 0 0 100px var(--cool1);;">
+                    <img src="https://artfight.net/css/emoticons/stamp_steampunk.png" alt="">
+                    <img src="https://artfight.net/css/emoticons/stamp_wither.png" alt="">
+                    <img src="https://artfight.s-ul.eu/9M47biHd" alt="">
+                </div>
+                <p>Dont know what Artfight is? Check it out <a href="https://artfight.net/">here</a>!</p>
+            </div>
+        </div>
+        <div class="child">
+            <img src="https://file.garden/ZXYYlmMYuz15fq8m/fun(not%20website%20related)/characheet" height="305px">
+            <div style="padding: 1vw; display: flex; flex-direction: column;">
+                <a href="https://artfight.net/character/3140446.neptune"><img src="https://file.garden/ZXYYlmMYuz15fq8m/fun(not%20website%20related)/nep.png" height="100px" alt=""></a>
+                <a href="https://artfight.net/character/4373842.ethan"><img src="https://file.garden/ZXYYlmMYuz15fq8m/fun(not%20website%20related)/eth.png" height="100px" alt=""></a>
+                <a href="https://artfight.net/character/1854679.zavier"><img src="https://file.garden/ZXYYlmMYuz15fq8m/fun(not%20website%20related)/zav.png" height="100px" alt=""></a>
+            </div>
+        </div>
+        <div class="child">
+            <h3><a href="index.html">Other Social Media</a></h3>
+        </div>
+
+    </div>
+    <script>
+        var speed=150; // speed of wobbling, lower is faster
+var height=3; // height of wobbling in pixels
+var alink="http://www.mf2fm.com/rv"; // page to link text to (set to ="" for no link)
+
+/****************************
+*    Wobbly Text Effect     *
+*(c) 2003-6 mf2fm web-design*
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var wobtxt, wobble, wobcnt=0;
+window.onload=function() { if (document.getElementById) {
+  var i, wobli;
+  wobble=document.getElementById("wobble");
+  wobtxt=wobble.firstChild.nodeValue;
+  while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
+  for (i=0; i<wobtxt.length; i++) {
+    wobli=document.createElement("span");
+    wobli.setAttribute("id", "wobb"+i);
+    wobli.style.position="relative";
+    wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+    if (alink) {
+      wobli.style.cursor="pointer";
+      wobli.onclick=function() { top.location.href=alink; }
+    }
+    wobble.appendChild(wobli);
+  }
+  setInterval("wobbler()", speed);
+}}
+
+function wobbler() {
+  for (var i=0; i<wobtxt.length; i++) document.getElementById("wobb"+i).style.top=Math.round(height*Math.sin(i+wobcnt))+"px"
+  wobcnt++;
+}
+</script>
+
+</body>
+</html>
