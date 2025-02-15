@@ -24,7 +24,7 @@ html{
     background-color: var(--dark);
     color:var(--white);
     align-items: center;
-    background-image: url('https://file.garden/ZXYYlmMYuz15fq8m/other/spacebg.jpg');
+    background-image: url('../img/spacebg.jpg');
     background-size:cover;
     background-attachment: fixed;
     display: flex;
